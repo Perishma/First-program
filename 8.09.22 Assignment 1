@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include <stdbool.h>
+bool isPerfectSquare(int x)
+{
+int s = sqrt(x);
+return (ss == x); } int isFibonacci(int n) { return isPerfectSquare(5nn + 4) || isPerfectSquare(5n*n – 4);
+}
+int main()
+{
+int num;
+printf("Enter a number");
+scanf("%d", &num);
+if(isFibonacci(num)){
+printf("%d is a fibonacci number", num);
+}
+else{
+printf("%d is not a fibonacci number", num);
+}
+return 0;
+}
